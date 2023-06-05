@@ -9,31 +9,31 @@ document.getElementsByClassName("drum")[i].addEventListener("click", sound);
 
 function msound(kd){
     switch(kd){
-    case "w":var tom1=new Audio("./sounds/tom-1.mp3");
+    case "w":var tom1=new Audio("tom-1.mp3");
     tom1.play();
     break;
-    case "a":var tom1=new Audio("./sounds/tom-2.mp3");
+    case "a":var tom1=new Audio("tom-2.mp3");
     tom1.play();
     break;
-    case "s":var tom1=new Audio("./sounds/tom-3.mp3");
+    case "s":var tom1=new Audio("tom-3.mp3");
     tom1.play();
     break;
-    case "d":var tom1=new Audio("./sounds/tom-4.mp3");
+    case "d":var tom1=new Audio("tom-4.mp3");
     tom1.play();
     break;
-    case "j":var tom1=new Audio("./sounds/snare.mp3");
+    case "j":var tom1=new Audio("snare.mp3");
     tom1.play();
     break;
-    case "k":var tom1=new Audio("./sounds/crash.mp3");
+    case "k":var tom1=new Audio("crash.mp3");
     tom1.play();
     break;
-    case "l":var tom1=new Audio("./sounds/kick-bass.mp3");
+    case "l":var tom1=new Audio("kick-bass.mp3");
     tom1.play();
     break;
-    case "gargi":var tom1=new Audio("./sounds/Meow.m4a");
+    case "gargi":var tom1=new Audio("Meow.m4a");
     tom1.play();
     break;
-    case "gan":var tom1=new Audio("./sounds/gun.mp3");
+    case "gan":var tom1=new Audio("gun.mp3");
     tom1.play();
     break;
 }

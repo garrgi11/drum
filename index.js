@@ -41,8 +41,7 @@ function msound(kd){
 document.addEventListener("keydown",ksound);
 function ksound(event){
     msound(event.key)
-    if(event.key==="g")
-        msound("gargi");
+    
     if(event.key==="z")
         msound("gan");
 }
